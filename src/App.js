@@ -10,6 +10,7 @@ function App() {
   return (
     <div className={`theme-${darkMode ? "dark" : "light"}`}>
       <Routes>
+        <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Routes>
